@@ -1,4 +1,4 @@
-import heroes, { owners } from "./data/heroes";
+import heroes, { owners } from "../data/heroes";
 
 // { owners }, esa forma de importar se debe a que cuando no tiene las llaves {}, es una exportacion por defecto, pero cuando tiene las llaves {}, es porque es una exportacion individual
 console.log(owners);
